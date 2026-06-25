@@ -37,7 +37,25 @@
 
 · 5.缓存模块
 
-<h2>1-4 其他工具</h2>
+<h2>1-4 工程结构</h2>
+
+- crud：数据库增删改查逻辑(封装数据库操作)
+
+- models：数据库模型(SQLAlchemy ORM)
+
+- routers：路由层(按模块划分)
+
+- schemas：数据验证模型(Pydantic)
+
+- utils：工具函数
+
+- config：配置相关
+
+- main.py：主函数入口
+
+- cache：缓存读取和写入
+
+<h2>1-5 其他工具</h2>
 
 · 前端驱动：node.js
 
